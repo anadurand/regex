@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Validación</title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <div class="">
+        <label for="name">Nombre</label>
+        <input id = "name" type="text" name="" pattern="[A-Z]{1,}[a-z]*" required>
+      </div>
+      <div class="">
+        <label for="lastName">Apellido</label>
+        <input id = "lastName" type="text" name="" value="" required>
+      </div>
+      <div class="">
+        <label for="dni">DNI</label>
+        <input id = "dni" type="number" required>
+      </div>
+      <div class="">
+        <label for="date">Fecha de nacimiento</label>
+        <input id = "date" type="date" name="" value="" required>
+      </div>
+      <div class="">
+        <label for="cellphone">Celular</label>
+        <input id = "cellphone" type="tel" name="" value="" required>
+      </div>
+      <div class="">
+        <label for="phone">Telefono casa</label>
+        <input id = "phone" type="tel" name="" value="" required>
+      </div>
+      <div class="">
+        <label for="password">Contraseña</label>
+        <input id = "password" type="password" name="" value="" required>
+      </div>
+      <div class="">
+        <label for="confirmP">Confirmar contraseña</label>
+        <input id = "confirmP" type="password" name="" value="" required>
+      </div>
+      <div class="">
+        <label for="comment">Comentario</label><br>
+        <textarea id = "comment" name="name" rows="8" cols="60"></textarea>
+      </div>
+      <div class="">
+        <input id = "check" type="checkbox" name="" value="" required>
+        <label for="check">Acepto los términos y condiciones</label>
+      </div>
+      <input type="submit" name="" value="Enviar">
+    </form>
+  </body>
+</html>
