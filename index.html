@@ -11,15 +11,15 @@
     <form class="" action="index.html" method="post">
       <div class="">
         <label for="name">Nombre</label>
-        <input id = "name" type="text" name="" pattern="[A-Z]{1,}[a-z]*" required>
+        <input id = "name" type="text" name="" pattern="[A-Z]{1}[a-z]*" required>
       </div>
       <div class="">
         <label for="lastName">Apellido</label>
-        <input id = "lastName" type="text" name="" value="" required>
+        <input id = "lastName" type="text" name="" value="" pattern="[A-Z]{1}[a-z]*" required>
       </div>
       <div class="">
         <label for="dni">DNI</label>
-        <input id = "dni" type="number" required>
+        <input id = "dni" type="number" pattern="[0-9]{8}" required>
       </div>
       <div class="">
         <label for="date">Fecha de nacimiento</label>
@@ -43,7 +43,7 @@
       </div>
       <div class="">
         <label for="comment">Comentario</label><br>
-        <textarea id = "comment" name="name" rows="8" cols="60"></textarea>
+        <textarea id = "comment" name="name" rows="8" cols="60" required></textarea>
       </div>
       <div class="">
         <input id = "check" type="checkbox" name="" value="" required>
