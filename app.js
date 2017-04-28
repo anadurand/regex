@@ -4,7 +4,7 @@ var confirmP = document.getElementById("confirmP");
 var enviar = document.getElementById("enviar");
 var c = 0;
 enviar.addEventListener("click", function(e){
-  e.preventDefault();
+//  e.preventDefault();
   if(password.value == confirmP.value){
     c++;
   }else{
