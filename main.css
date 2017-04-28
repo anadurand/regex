@@ -1,3 +1,57 @@
-div{
+.contactanos{
+  font-family: 'Prompt', sans-serif;
+  width: 40%;
+  margin: 3% auto;
+  border: solid 2px black;
+  box-shadow: 10px 10px 5px rgba(61,156,232,0.5);
+}
+.form{
+  padding: 3% 2% 2% 2%;
+  display: block;
+  position: relative;
+  text-align: left;
+}
+.form label{
+  width: 40%;
+  display: inline-block;
+  padding: 0 10px;
+  text-indent: -10px;
+}
+.form input, .form textarea{
+  width: 50%;
+  position: relative;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 7px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+}
+input .check{
+  width: 15%;
+}
+.input-box {
+  position: relative;
   margin: 2% 0;
+}
+.input-box span{
+  display: block;
+  background-color: rgba(51,51,51,0.8);
+  padding: 5px;
+  position: absolute;
+  left: 105%;
+  top: 8px;
+  width: 200px;
+  color: white;
+}
+.input-box span:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-right: 10px solid rgba(51,51,51,0.8);
+  border-bottom: 5px solid transparent;
+  position: absolute;
+  right: 100%;
+  top: 10px;
 }
